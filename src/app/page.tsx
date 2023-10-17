@@ -62,9 +62,18 @@ export default function Home() {
         <FileServerComponent />
       </StaticClientComponent> */}
 
-      {/* {7. api의 캐시는 어떻게 이루어 질까} */}
+      {/* {7. Data Cache 캐시는 어떻게 이루어 질까} */}
       {/* <UnCachedFetchServerComponent />
       <FetchServerComponent /> */}
+
+      {/* {8. Request Memoization 캐시는 어떻게 이루어 질까 } */}
+
+      {/* {9. Full Route Cache 캐시는 어떻게 이루어 질까 } */}
+
+      {/* {10. Static and Dynamic Rendering 은 캐시에 어떤 영향을 미칠까 } */}
+      
+      {/* {11. Router Cache 는 Full Route Cache와 다를까? } */}
+
     </Fragment>
   )
 }
