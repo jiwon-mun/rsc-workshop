@@ -415,7 +415,7 @@ const heavyUser: User[] = [{
 
 export async function GET() {
 
-    
-   
-    return NextResponse.json(simpleUser)
-  }
+   console.log("hit the GET") 
+
+  return NextResponse.json(simpleUser)
+}

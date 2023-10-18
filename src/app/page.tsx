@@ -12,6 +12,10 @@ import DateDynamicImportComponent from '@/components/DateDynamicImportComponent'
 import ServerComponentAtClientComponent from '@/components/ServerComponentAtClientComponent'
 import FileServerComponent from '@/components/FileServerComponent'
 import "public/RSCObserver.css";
+import RequestMemoizationCacheComponent from '@/components/RequestMemoizationCacheComponent'
+import FullRouteCacheComponent from '@/components/FullRouteCacheComponent'
+import ObserverableCacheComponent from '@/components/ObserverableCacheComponent'
+import RouteCacheComponent from '@/components/RouteCacheComponent'
 
 export default function Home() {
   return (
@@ -67,12 +71,17 @@ export default function Home() {
       <FetchServerComponent /> */}
 
       {/* {8. Request Memoization 캐시는 어떻게 이루어 질까 } */}
+      {/* <RequestMemoizationCacheComponent /> */}
 
-      {/* {9. Full Route Cache 캐시는 어떻게 이루어 질까 } */}
+      {/* {9. Static Full Route Cache(For Server) 캐시는 어떻게 이루어 질까 } */}
+      {/* <FullRouteCacheComponent /> */}
 
-      {/* {10. Static and Dynamic Rendering 은 캐시에 어떤 영향을 미칠까 } */}
-      
-      {/* {11. Router Cache 는 Full Route Cache와 다를까? } */}
+
+      {/* {10. Dynamic Full Route Cache Rendering(For Server) 은 캐시에 어떤 영향을 미칠까 } */}
+      {/* <ObserverableCacheComponent /> */}
+
+      {/* {11. Router Cache 는 무엇이고 Full Route Cache와 다를까? } */}
+      <RouteCacheComponent />
 
     </Fragment>
   )
