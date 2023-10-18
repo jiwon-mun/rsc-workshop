@@ -1,6 +1,6 @@
+import delay from "@/delay"
 import { FC, PropsWithChildren } from "react"
 
-const delay = async (second: number) => new Promise((resolve)=>setTimeout(()=>resolve(null), second * 1000))
 
 
 
