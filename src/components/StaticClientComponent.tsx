@@ -1,4 +1,3 @@
-'use client'
 import { FC, PropsWithChildren } from "react"
 
 const StaticClientComponent : FC<PropsWithChildren> = ({children}) => {

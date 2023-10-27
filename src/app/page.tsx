@@ -16,7 +16,9 @@ import RequestMemoizationCacheComponent from '@/components/RequestMemoizationCac
 import FullRouteCacheComponent from '@/components/FullRouteCacheComponent'
 import ObserverableCacheComponent from '@/components/ObserverableCacheComponent'
 import RouteCacheComponent from '@/components/RouteCacheComponent'
-
+import ServerComponentWithServerResourceAtClientComponent from '@/components/ServerComponentWithServerResourceAtClientComponent'
+import ClientComponenAtServerComponent from '@/components/ClientComponentAtServerComponent'
+import ClientComponenWithStateAtServerComponent from '@/components/ClientComponenWithStateAtServerComponent'
 export default function Home() {
   return (
     <Fragment>
@@ -60,9 +62,11 @@ export default function Home() {
 
 
       {/* {6. 상호간의 Import는 가능할까?} */}
-      {/* <ServerComponentAtClientComponent />
-      <ServerComponentAtClientComponent />
-      <StaticClientComponent>
+      {/* <ServerComponentAtClientComponent /> */}
+      {/* <ServerComponentWithServerResourceAtClientComponent /> */}
+      {/* <ClientComponenAtServerComponent /> */}
+      {/* <ClientComponenWithStateAtServerComponent /> */}
+      {/* <StaticClientComponent>
         <FileServerComponent />
       </StaticClientComponent> */}
 

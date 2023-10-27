@@ -1,8 +1,8 @@
-import StaticServerComponent from "./StaticServerComponent"
+import StaticClientComponent from "./StaticClientComponent"
 
-const ServerComponenAtClientComponent = () => {
-    return <div><StaticServerComponent /> <div style={{marginLeft: 20}}>At ClientComponent</div></div>
+const ClientComponenAtServerComponent = () => {
+    return <div><StaticClientComponent /> <div style={{marginLeft: 20}}>At ServerComponent</div></div>
 }
 
-export default ServerComponenAtClientComponent;
+export default ClientComponenAtServerComponent;
 
