@@ -81,7 +81,7 @@ export default function Home() {
       {/* <ObserverableCacheComponent /> */}
 
       {/* {11. Router Cache 는 무엇이고 Full Route Cache와 다를까? } */}
-      <RouteCacheComponent />
+      {/* <RouteCacheComponent /> */}
 
     </Fragment>
   )
